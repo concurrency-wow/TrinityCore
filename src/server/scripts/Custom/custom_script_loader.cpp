@@ -16,9 +16,11 @@
  */
 
 // This is where scripts' loading functions should be declared:
+void AddSC_redridge_transportation_script_v1();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
 void AddCustomScripts()
 {
+    AddSC_redridge_transportation_script_v1();
 }

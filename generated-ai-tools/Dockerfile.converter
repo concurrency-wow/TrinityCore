@@ -1,0 +1,11 @@
+FROM ubuntu:26.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends python3 python3-pil smpq \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY tools/model_converter.py /usr/local/bin/forgekeeper-convert
+RUN chmod 755 /usr/local/bin/forgekeeper-convert
+
+ENTRYPOINT ["forgekeeper-convert"]

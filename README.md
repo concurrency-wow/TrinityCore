@@ -57,6 +57,41 @@ Windows, Linux and macOS.
 Detailed installation guides are available in the [wiki](https://trinitycore.info/en/home) for
 Windows, Linux and macOS.
 
+### Clean rebuild helper
+
+`rebuild.sh` cleans the configured CMake build directory, rebuilds the requested
+targets in parallel, and moves newly built `worldserver` and `authserver`
+executables to `/home/czirz/server`.
+
+Build everything:
+
+```bash
+./rebuild.sh
+```
+
+Build one or more targets:
+
+```bash
+./rebuild.sh worldserver
+./rebuild.sh authserver
+./rebuild.sh worldserver authserver
+```
+
+The script uses `build/` by default. Its paths and parallel job count can be
+changed with environment variables:
+
+```bash
+BUILD_DIR=/path/to/build SERVER_DIR=/path/to/server JOBS=4 ./rebuild.sh
+```
+
+To expand the script, pass any additional CMake target as an argument. To also
+deploy another executable, add its name to the `for executable in ...` list near
+the end of `rebuild.sh`. CMake target names can be listed with:
+
+```bash
+cmake --build build --target help
+```
+
 
 ## Reporting issues
 

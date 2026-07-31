@@ -1,0 +1,46 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    environment:
+      DB_HOST: host.docker.internal
+      DB_PORT: "3306"
+      DB_USER: ${DB_USER:-trinity}
+      DB_PASSWORD: ${DB_PASSWORD:-trinity}
+      DB_NAME: ${DB_NAME:-world}
+      DB_WRITE_ENABLED: ${DB_WRITE_ENABLED:-true}
+      DBC_PATH: /dbc
+      MODEL_CACHE_PATH: /models
+      API_PORT: "8080"
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - ${DBC_PATH:-/home/czirz/server/dbc}:/dbc:ro
+      - ./model-cache:/models:ro
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+  converter:
+    profiles: [tools]
+    build:
+      context: .
+      dockerfile: Dockerfile.converter
+    environment:
+      DBC_PATH: /dbc
+      WOW_CLIENT_PATH: /client
+      WOW_LOCALE: ${WOW_LOCALE:-enUS}
+      MODEL_CACHE_PATH: /models
+    volumes:
+      - ${DBC_PATH:-/home/czirz/server/dbc}:/dbc:ro
+      - ${WOW_CLIENT_PATH:-/home/czirz/Downloads/World of Warcraft 3.3.5a}:/client:ro
+      - ./model-cache:/models
