@@ -19,6 +19,7 @@
 void AddSC_redridge_transportation_script_v1();
 void AddSC_player_pvp_test();
 void AddSC_embedded_arrows();
+void AddSC_gm_cage();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
@@ -27,4 +28,5 @@ void AddCustomScripts()
     AddSC_redridge_transportation_script_v1();
     AddSC_player_pvp_test();
     AddSC_embedded_arrows();
+    AddSC_gm_cage();
 }
