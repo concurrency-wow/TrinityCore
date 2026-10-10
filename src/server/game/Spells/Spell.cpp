@@ -571,6 +571,8 @@ m_caster((info->HasAttribute(SPELL_ATTR6_CAST_BY_CHARMER) && caster->GetCharmerO
 
     // Get data for type of attack
     m_attackType = info->GetAttackType();
+    m_ammoItemId = 0;
+    m_ammoRecoveryClaimed = false;
 
     m_spellSchoolMask = info->GetSchoolMask();           // Can be override for some spell (wand shoot for example)
 
@@ -2630,7 +2632,10 @@ void Spell::TargetInfo::DoDamageAndTriggers(Spell* spell)
                 procVictim |= PROC_FLAG_TAKEN_DAMAGE;
 
                 spell->m_damage = damageInfo.damage;
-                caster->DealSpellDamage(&damageInfo, true);
+                uint32 dealtDamage = caster->DealSpellDamage(&damageInfo, true);
+                if (dealtDamage > 0)
+                    if (Player* playerCaster = caster->ToPlayer())
+                        sScriptMgr->OnPlayerSpellDamage(playerCaster, damageInfo.target, spell, dealtDamage);
             }
 
             // Do triggers for unit
@@ -4846,21 +4851,21 @@ void Spell::TakePower()
         unitCaster->SetLastManaUse(GameTime::GetGameTimeMS());
 }
 
-void Spell::TakeAmmo()
+uint32 Spell::TakeAmmo()
 {
     // Only players use ammo
     Player* player = m_caster->ToPlayer();
     if (!player)
-        return;
+        return 0;
 
     // only ranged
     if (m_attackType != RANGED_ATTACK)
-        return;
+        return 0;
 
     // wands don't have ammo
     Item* item = player->GetWeaponForAttack(RANGED_ATTACK);
     if (!item || item->IsBroken() || item->GetTemplate()->GetSubClass() == ITEM_SUBCLASS_WEAPON_WAND)
-        return;
+        return 0;
 
     if (item->GetTemplate()->GetInventoryType() == INVTYPE_THROWN)
     {
@@ -4877,7 +4882,24 @@ void Spell::TakeAmmo()
         }
     }
     else if (uint32 ammo = player->GetUInt32Value(PLAYER_AMMO_ID))
-        player->DestroyItemCount(ammo, 1, true);
+    {
+        if (player->DestroyItemCount(ammo, 1, true) == 1)
+        {
+            m_ammoOwnerGuid = player->GetGUID();
+            return ammo;
+        }
+    }
+
+    return 0;
+}
+
+uint32 Spell::ClaimAmmoItemForRecovery()
+{
+    if (m_ammoRecoveryClaimed)
+        return 0;
+
+    m_ammoRecoveryClaimed = true;
+    return m_ammoItemId;
 }
 
 SpellCastResult Spell::CheckRuneCost(uint32 runeCostID) const
@@ -7697,7 +7719,7 @@ void Spell::HandleLaunchPhase()
             usesAmmo = false;
 
         if (usesAmmo)
-            TakeAmmo();
+            m_ammoItemId = TakeAmmo();
     }
 
     for (TargetInfo& target : m_UniqueTargetInfo)

@@ -1061,7 +1061,7 @@ class TC_GAME_API Unit : public WorldObject
         ObjectGuid GetLastDamagedTargetGuid() const { return _lastDamagedTargetGuid; }
 
         void CalculateSpellDamageTaken(SpellNonMeleeDamage* damageInfo, int32 damage, SpellInfo const* spellInfo, WeaponAttackType attackType = BASE_ATTACK, bool crit = false, bool blocked = false, Spell* spell = nullptr);
-        void DealSpellDamage(SpellNonMeleeDamage const* damageInfo, bool durabilityLoss);
+        uint32 DealSpellDamage(SpellNonMeleeDamage const* damageInfo, bool durabilityLoss);
 
         // player or player's pet resilience (-1%)
         float GetMeleeCritChanceReduction() const { return GetCombatRatingReduction(CR_CRIT_TAKEN_MELEE); }

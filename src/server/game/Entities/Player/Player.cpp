@@ -89,6 +89,7 @@
 #include "QuestPools.h"
 #include "Realm.h"
 #include "ReputationMgr.h"
+#include "ScriptMgr.h"
 #include "SkillDiscovery.h"
 #include "SocialMgr.h"
 #include "Spell.h"
@@ -1306,6 +1307,9 @@ void Player::setDeathState(DeathState s)
     // restore resurrection spell id for player after aura remove
     if (s == JUST_DIED && cur && ressSpellId)
         SetUInt32Value(PLAYER_SELF_RES_SPELL, ressSpellId);
+
+    if (s == JUST_DIED && cur)
+        sScriptMgr->OnPlayerDeath(this);
 
     if (IsAlive() && !cur)
         //clear aura case after resurrection by another way (spells will be applied before next death)

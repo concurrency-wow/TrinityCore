@@ -1,0 +1,1966 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/home/czirz/.local/share/nvim/mason/bin/uname"
+      - "/home/czirz/.local/bin/uname"
+      - "/usr/local/go/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 7.0.0-28-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/home/czirz/.local/share/nvim/mason/bin/gmake"
+      - "/home/czirz/.local/bin/gmake"
+      - "/usr/local/go/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/home/czirz/.local/share/nvim/mason/bin/cc"
+      - "/home/czirz/.local/bin/cc"
+      - "/usr/local/go/bin/cc"
+      - "/usr/local/sbin/cc"
+      - "/usr/local/bin/cc"
+      - "/usr/sbin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-ar"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-ar"
+      - "/home/czirz/.local/bin/llvm-ar"
+      - "/usr/local/go/bin/llvm-ar"
+      - "/usr/local/sbin/llvm-ar"
+      - "/usr/local/bin/llvm-ar"
+      - "/usr/sbin/llvm-ar"
+      - "/sbin/llvm-ar"
+      - "/bin/llvm-ar"
+      - "/usr/games/llvm-ar"
+      - "/usr/local/games/llvm-ar"
+      - "/snap/bin/llvm-ar"
+      - "/opt/nvim-linux-x86_64/bin/llvm-ar"
+      - "/home/czirz/.opencode/bin/llvm-ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-ranlib"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-ranlib"
+      - "/home/czirz/.local/bin/llvm-ranlib"
+      - "/usr/local/go/bin/llvm-ranlib"
+      - "/usr/local/sbin/llvm-ranlib"
+      - "/usr/local/bin/llvm-ranlib"
+      - "/usr/sbin/llvm-ranlib"
+      - "/sbin/llvm-ranlib"
+      - "/bin/llvm-ranlib"
+      - "/usr/games/llvm-ranlib"
+      - "/usr/local/games/llvm-ranlib"
+      - "/snap/bin/llvm-ranlib"
+      - "/opt/nvim-linux-x86_64/bin/llvm-ranlib"
+      - "/home/czirz/.opencode/bin/llvm-ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-strip"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-strip"
+      - "/home/czirz/.local/bin/llvm-strip"
+      - "/usr/local/go/bin/llvm-strip"
+      - "/usr/local/sbin/llvm-strip"
+      - "/usr/local/bin/llvm-strip"
+      - "/usr/sbin/llvm-strip"
+      - "/sbin/llvm-strip"
+      - "/bin/llvm-strip"
+      - "/usr/games/llvm-strip"
+      - "/usr/local/games/llvm-strip"
+      - "/snap/bin/llvm-strip"
+      - "/opt/nvim-linux-x86_64/bin/llvm-strip"
+      - "/home/czirz/.opencode/bin/llvm-strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/ld.lld"
+      - "/home/czirz/.local/share/nvim/mason/bin/ld.lld"
+      - "/home/czirz/.local/bin/ld.lld"
+      - "/usr/local/go/bin/ld.lld"
+      - "/usr/local/sbin/ld.lld"
+      - "/usr/local/bin/ld.lld"
+      - "/usr/sbin/ld.lld"
+      - "/sbin/ld.lld"
+      - "/bin/ld.lld"
+      - "/usr/games/ld.lld"
+      - "/usr/local/games/ld.lld"
+      - "/snap/bin/ld.lld"
+      - "/opt/nvim-linux-x86_64/bin/ld.lld"
+      - "/home/czirz/.opencode/bin/ld.lld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-nm"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-nm"
+      - "/home/czirz/.local/bin/llvm-nm"
+      - "/usr/local/go/bin/llvm-nm"
+      - "/usr/local/sbin/llvm-nm"
+      - "/usr/local/bin/llvm-nm"
+      - "/usr/sbin/llvm-nm"
+      - "/sbin/llvm-nm"
+      - "/bin/llvm-nm"
+      - "/usr/games/llvm-nm"
+      - "/usr/local/games/llvm-nm"
+      - "/snap/bin/llvm-nm"
+      - "/opt/nvim-linux-x86_64/bin/llvm-nm"
+      - "/home/czirz/.opencode/bin/llvm-nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-objdump"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-objdump"
+      - "/home/czirz/.local/bin/llvm-objdump"
+      - "/usr/local/go/bin/llvm-objdump"
+      - "/usr/local/sbin/llvm-objdump"
+      - "/usr/local/bin/llvm-objdump"
+      - "/usr/sbin/llvm-objdump"
+      - "/sbin/llvm-objdump"
+      - "/bin/llvm-objdump"
+      - "/usr/games/llvm-objdump"
+      - "/usr/local/games/llvm-objdump"
+      - "/snap/bin/llvm-objdump"
+      - "/opt/nvim-linux-x86_64/bin/llvm-objdump"
+      - "/home/czirz/.opencode/bin/llvm-objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-objcopy"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-objcopy"
+      - "/home/czirz/.local/bin/llvm-objcopy"
+      - "/usr/local/go/bin/llvm-objcopy"
+      - "/usr/local/sbin/llvm-objcopy"
+      - "/usr/local/bin/llvm-objcopy"
+      - "/usr/sbin/llvm-objcopy"
+      - "/sbin/llvm-objcopy"
+      - "/bin/llvm-objcopy"
+      - "/usr/games/llvm-objcopy"
+      - "/usr/local/games/llvm-objcopy"
+      - "/snap/bin/llvm-objcopy"
+      - "/opt/nvim-linux-x86_64/bin/llvm-objcopy"
+      - "/home/czirz/.opencode/bin/llvm-objcopy"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-readelf"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-readelf"
+      - "/home/czirz/.local/bin/llvm-readelf"
+      - "/usr/local/go/bin/llvm-readelf"
+      - "/usr/local/sbin/llvm-readelf"
+      - "/usr/local/bin/llvm-readelf"
+      - "/usr/sbin/llvm-readelf"
+      - "/sbin/llvm-readelf"
+      - "/bin/llvm-readelf"
+      - "/usr/games/llvm-readelf"
+      - "/usr/local/games/llvm-readelf"
+      - "/snap/bin/llvm-readelf"
+      - "/opt/nvim-linux-x86_64/bin/llvm-readelf"
+      - "/home/czirz/.opencode/bin/llvm-readelf"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-dlltool"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-dlltool"
+      - "/home/czirz/.local/bin/llvm-dlltool"
+      - "/usr/local/go/bin/llvm-dlltool"
+      - "/usr/local/sbin/llvm-dlltool"
+      - "/usr/local/bin/llvm-dlltool"
+      - "/usr/sbin/llvm-dlltool"
+      - "/sbin/llvm-dlltool"
+      - "/bin/llvm-dlltool"
+      - "/usr/games/llvm-dlltool"
+      - "/usr/local/games/llvm-dlltool"
+      - "/snap/bin/llvm-dlltool"
+      - "/opt/nvim-linux-x86_64/bin/llvm-dlltool"
+      - "/home/czirz/.opencode/bin/llvm-dlltool"
+      - "/usr/bin/dlltool"
+      - "/home/czirz/.local/share/nvim/mason/bin/dlltool"
+      - "/home/czirz/.local/bin/dlltool"
+      - "/usr/local/go/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+      - "/opt/nvim-linux-x86_64/bin/dlltool"
+      - "/home/czirz/.opencode/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/llvm-addr2line"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-addr2line"
+      - "/home/czirz/.local/bin/llvm-addr2line"
+      - "/usr/local/go/bin/llvm-addr2line"
+      - "/usr/local/sbin/llvm-addr2line"
+      - "/usr/local/bin/llvm-addr2line"
+      - "/usr/sbin/llvm-addr2line"
+      - "/sbin/llvm-addr2line"
+      - "/bin/llvm-addr2line"
+      - "/usr/games/llvm-addr2line"
+      - "/usr/local/games/llvm-addr2line"
+      - "/snap/bin/llvm-addr2line"
+      - "/opt/nvim-linux-x86_64/bin/llvm-addr2line"
+      - "/home/czirz/.opencode/bin/llvm-addr2line"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/czirz/.local/share/nvim/mason/bin/tapi"
+      - "/home/czirz/.local/bin/tapi"
+      - "/usr/local/go/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+      - "/opt/nvim-linux-x86_64/bin/tapi"
+      - "/home/czirz/.opencode/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-ar-21.1"
+      - "/home/czirz/.local/bin/llvm-ar-21.1"
+      - "/usr/local/go/bin/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/sbin/llvm-ar-21.1"
+      - "/sbin/llvm-ar-21.1"
+      - "/bin/llvm-ar-21.1"
+      - "/usr/games/llvm-ar-21.1"
+      - "/usr/local/games/llvm-ar-21.1"
+      - "/snap/bin/llvm-ar-21.1"
+      - "/opt/nvim-linux-x86_64/bin/llvm-ar-21.1"
+      - "/home/czirz/.opencode/bin/llvm-ar-21.1"
+      - "/usr/lib/llvm-21/bin/llvm-ar-21"
+    found: "/usr/bin/llvm-ar-21"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-ranlib-21.1"
+      - "/home/czirz/.local/bin/llvm-ranlib-21.1"
+      - "/usr/local/go/bin/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/sbin/llvm-ranlib-21.1"
+      - "/sbin/llvm-ranlib-21.1"
+      - "/bin/llvm-ranlib-21.1"
+      - "/usr/games/llvm-ranlib-21.1"
+      - "/usr/local/games/llvm-ranlib-21.1"
+      - "/snap/bin/llvm-ranlib-21.1"
+      - "/opt/nvim-linux-x86_64/bin/llvm-ranlib-21.1"
+      - "/home/czirz/.opencode/bin/llvm-ranlib-21.1"
+      - "/usr/lib/llvm-21/bin/llvm-ranlib-21"
+    found: "/usr/bin/llvm-ranlib-21"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/home/czirz/.local/share/nvim/mason/bin/clang-scan-deps-21.1"
+      - "/home/czirz/.local/bin/clang-scan-deps-21.1"
+      - "/usr/local/go/bin/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/sbin/clang-scan-deps-21.1"
+      - "/sbin/clang-scan-deps-21.1"
+      - "/bin/clang-scan-deps-21.1"
+      - "/usr/games/clang-scan-deps-21.1"
+      - "/usr/local/games/clang-scan-deps-21.1"
+      - "/snap/bin/clang-scan-deps-21.1"
+      - "/opt/nvim-linux-x86_64/bin/clang-scan-deps-21.1"
+      - "/home/czirz/.opencode/bin/clang-scan-deps-21.1"
+      - "/usr/lib/llvm-21/bin/clang-scan-deps-21"
+    found: "/usr/bin/clang-scan-deps-21"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /usr/bin/x86_64-linux-gnu-ld.bfd: cannot find -lstdc++: No such file or directory
+      c++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/4.2.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-21.1"
+      - "llvm-ar-21"
+      - "llvm-ar21"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/llvm-ar-21.1"
+      - "/usr/bin/llvm-ar-21.1"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-ar-21.1"
+      - "/home/czirz/.local/bin/llvm-ar-21.1"
+      - "/usr/local/go/bin/llvm-ar-21.1"
+      - "/usr/local/sbin/llvm-ar-21.1"
+      - "/usr/local/bin/llvm-ar-21.1"
+      - "/usr/sbin/llvm-ar-21.1"
+      - "/sbin/llvm-ar-21.1"
+      - "/bin/llvm-ar-21.1"
+      - "/usr/games/llvm-ar-21.1"
+      - "/usr/local/games/llvm-ar-21.1"
+      - "/snap/bin/llvm-ar-21.1"
+      - "/opt/nvim-linux-x86_64/bin/llvm-ar-21.1"
+      - "/home/czirz/.opencode/bin/llvm-ar-21.1"
+      - "/usr/lib/llvm-21/bin/llvm-ar-21"
+    found: "/usr/bin/llvm-ar-21"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-21.1"
+      - "llvm-ranlib-21"
+      - "llvm-ranlib21"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/llvm-ranlib-21.1"
+      - "/usr/bin/llvm-ranlib-21.1"
+      - "/home/czirz/.local/share/nvim/mason/bin/llvm-ranlib-21.1"
+      - "/home/czirz/.local/bin/llvm-ranlib-21.1"
+      - "/usr/local/go/bin/llvm-ranlib-21.1"
+      - "/usr/local/sbin/llvm-ranlib-21.1"
+      - "/usr/local/bin/llvm-ranlib-21.1"
+      - "/usr/sbin/llvm-ranlib-21.1"
+      - "/sbin/llvm-ranlib-21.1"
+      - "/bin/llvm-ranlib-21.1"
+      - "/usr/games/llvm-ranlib-21.1"
+      - "/usr/local/games/llvm-ranlib-21.1"
+      - "/snap/bin/llvm-ranlib-21.1"
+      - "/opt/nvim-linux-x86_64/bin/llvm-ranlib-21.1"
+      - "/home/czirz/.opencode/bin/llvm-ranlib-21.1"
+      - "/usr/lib/llvm-21/bin/llvm-ranlib-21"
+    found: "/usr/bin/llvm-ranlib-21"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-21.1"
+      - "clang-scan-deps-21"
+      - "clang-scan-deps21"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/lib/llvm-21/bin/"
+      - "/usr/bin/"
+      - "/home/czirz/.local/share/nvim/mason/bin/"
+      - "/home/czirz/.local/bin/"
+      - "/usr/local/go/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/opt/nvim-linux-x86_64/bin/"
+      - "/home/czirz/.opencode/bin/"
+    searched_directories:
+      - "/usr/lib/llvm-21/bin/clang-scan-deps-21.1"
+      - "/usr/bin/clang-scan-deps-21.1"
+      - "/home/czirz/.local/share/nvim/mason/bin/clang-scan-deps-21.1"
+      - "/home/czirz/.local/bin/clang-scan-deps-21.1"
+      - "/usr/local/go/bin/clang-scan-deps-21.1"
+      - "/usr/local/sbin/clang-scan-deps-21.1"
+      - "/usr/local/bin/clang-scan-deps-21.1"
+      - "/usr/sbin/clang-scan-deps-21.1"
+      - "/sbin/clang-scan-deps-21.1"
+      - "/bin/clang-scan-deps-21.1"
+      - "/usr/games/clang-scan-deps-21.1"
+      - "/usr/local/games/clang-scan-deps-21.1"
+      - "/snap/bin/clang-scan-deps-21.1"
+      - "/opt/nvim-linux-x86_64/bin/clang-scan-deps-21.1"
+      - "/home/czirz/.opencode/bin/clang-scan-deps-21.1"
+      - "/usr/lib/llvm-21/bin/clang-scan-deps-21"
+    found: "/usr/bin/clang-scan-deps-21"
+    search_context:
+      ENV{PATH}:
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/share/nvim/mason/bin"
+        - "/home/czirz/.local/bin"
+        - "/usr/local/go/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/opt/nvim-linux-x86_64/bin"
+        - "/home/czirz/.opencode/bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY"
+      binary: "/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a07c9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a07c9.dir/build.make CMakeFiles/cmTC_a07c9.dir/build
+        gmake[1]: Entering directory '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY'
+        Building C object CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Ubuntu clang version 21.1.8 (6ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-21/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY -v -fcoverage-compilation-dir=/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/16/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/16/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/llvm-21/lib/clang/21/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking C executable cmTC_a07c9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a07c9.dir/link.txt --verbose=1
+        Ubuntu clang version 21.1.8 (6ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-21/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a07c9 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        /usr/bin/cc -v -Wl,-v CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -o cmTC_a07c9
+        gmake[1]: Leaving directory '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/llvm-21/lib/clang/21/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/llvm-21/lib/clang/21/include] ==> [/usr/lib/llvm-21/lib/clang/21/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/llvm-21/lib/clang/21/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a07c9/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a07c9.dir/build.make CMakeFiles/cmTC_a07c9.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY']
+        ignore line: [Building C object CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -MD -MT CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-21/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY -v -fcoverage-compilation-dir=/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-JPHNPY -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/16/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/16/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/llvm-21/lib/clang/21/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_a07c9]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a07c9.dir/link.txt --verbose=1]
+        ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/lib/llvm-21/bin]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15]
+        ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a07c9 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a07c9] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/16] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/16]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_a07c9.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/16] ==> [/usr/lib/gcc/x86_64-linux-gnu/16]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/16;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.46
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-TTnZOu"
+      binary: "/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-TTnZOu"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-TTnZOu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aea92/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aea92.dir/build.make CMakeFiles/cmTC_aea92.dir/build
+        gmake[1]: Entering directory '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-TTnZOu'
+        Building CXX object CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Ubuntu clang version 21.1.8 (6ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-21/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-TTnZOu -v -fcoverage-compilation-dir=/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-TTnZOu -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/16/../../../../include/c++ -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/16/../../../../include/c++/x86_64-linux-gnu -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/16/../../../../include/c++/backward -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/16/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/16/../../../../include/c++/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/16/../../../../include/c++/backward"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/16/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/16/../../../../include/c++
+         /usr/lib/llvm-21/lib/clang/21/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_aea92
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aea92.dir/link.txt --verbose=1
+        Ubuntu clang version 21.1.8 (6ubuntu1)
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/lib/llvm-21/bin
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
+        Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/16
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aea92 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/16 -L/usr/lib/gcc/x86_64-linux-gnu/16/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/16/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.46
+        /usr/bin/x86_64-linux-gnu-ld.bfd: cannot find -lstdc++: No such file or directory
+        c++: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/c++ -v -Wl,-v CMakeFiles/cmTC_aea92.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_aea92
+        gmake[1]: *** [CMakeFiles/cmTC_aea92.dir/build.make:103: cmTC_aea92] Error 1
+        gmake[1]: Leaving directory '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-TTnZOu'
+        gmake: *** [Makefile:134: cmTC_aea92/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Check for working CXX compiler: /usr/bin/c++"
+    directories:
+      source: "/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-rnar0a"
+      binary: "/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-rnar0a"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-rnar0a'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6523f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6523f.dir/build.make CMakeFiles/cmTC_6523f.dir/build
+        gmake[1]: Entering directory '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-rnar0a'
+        Building CXX object CMakeFiles/cmTC_6523f.dir/testCXXCompiler.cxx.o
+        /usr/bin/c++    -MD -MT CMakeFiles/cmTC_6523f.dir/testCXXCompiler.cxx.o -MF CMakeFiles/cmTC_6523f.dir/testCXXCompiler.cxx.o.d -o CMakeFiles/cmTC_6523f.dir/testCXXCompiler.cxx.o -c /home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-rnar0a/testCXXCompiler.cxx
+        Linking CXX executable cmTC_6523f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6523f.dir/link.txt --verbose=1
+        /usr/bin/x86_64-linux-gnu-ld.bfd: cannot find -lstdc++: No such file or directory
+        c++: error: linker command failed with exit code 1 (use -v to see invocation)
+        /usr/bin/c++ CMakeFiles/cmTC_6523f.dir/testCXXCompiler.cxx.o -o cmTC_6523f
+        gmake[1]: *** [CMakeFiles/cmTC_6523f.dir/build.make:103: cmTC_6523f] Error 1
+        gmake[1]: Leaving directory '/home/czirz/TrinityCore/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-rnar0a'
+        gmake: *** [Makefile:134: cmTC_6523f/fast] Error 2
+        
+      exitCode: 2
+...

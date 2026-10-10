@@ -3125,6 +3125,47 @@ CharDelete.KeepDays = 30
 ###################################################################################################
 # CUSTOM SERVER OPTIONS
 #
+#    EmbeddedArrows.Enable
+#        Description: Tracks configured hunter arrows that deal damage to players. Embedded arrows
+#                     remain for a limited time and can be recovered from the body on death.
+#        Default:     1 - (Enabled)
+#                     0 - (Disabled)
+
+EmbeddedArrows.Enable = 1
+
+#
+#    EmbeddedArrows.AmmoItemIds
+#        Description: Comma-separated arrow item IDs that can become embedded. Use "*" for every
+#                     projectile with the arrow subclass.
+#        Default:     "41165,52021" - (Saronite Razorheads and Iceblade Arrow)
+
+EmbeddedArrows.AmmoItemIds = "41165,52021"
+
+#
+#    EmbeddedArrows.LifetimeSeconds
+#        Description: Time each embedded or recoverable arrow remains, in seconds.
+#        Range:       1-1800
+#        Default:     180
+
+EmbeddedArrows.LifetimeSeconds = 180
+
+#
+#    EmbeddedArrows.RecoveryChance
+#        Description: Percent chance that each embedded arrow becomes recoverable on death.
+#        Range:       0-100
+#        Default:     50
+
+EmbeddedArrows.RecoveryChance = 50
+
+#
+#    EmbeddedArrows.MaxPerPlayer
+#        Description: Maximum arrows tracked on one player at a time.
+#        Range:       1-255
+#        Default:     50
+
+EmbeddedArrows.MaxPerPlayer = 50
+
+#
 #     AllowTrackBothResources
 #        Description: Allows players to track herbs and minerals at the same time (if they have the skills)
 #        Default:     0 - (Do not allow)

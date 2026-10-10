@@ -317,7 +317,7 @@ class TC_GAME_API Spell
         void cast(bool skipCheck = false);
         void finish(bool ok = true);
         void TakePower();
-        void TakeAmmo();
+        uint32 TakeAmmo();
 
         void TakeRunePower(bool didHit);
         void TakeReagents();
@@ -451,6 +451,9 @@ class TC_GAME_API Spell
         WorldObject* GetCaster() const { return m_caster; }
         Unit* GetOriginalCaster() const { return m_originalCaster; }
         SpellInfo const* GetSpellInfo() const { return m_spellInfo; }
+        uint32 GetAmmoItemId() const { return m_ammoItemId; }
+        ObjectGuid GetAmmoOwnerGuid() const { return m_ammoOwnerGuid; }
+        uint32 ClaimAmmoItemForRecovery();
         int32 GetPowerCost() const { return m_powerCost; }
 
         bool UpdatePointers();                              // must be used at call Spell code after time delay (non triggered spell cast/update spell call/etc)
@@ -491,6 +494,9 @@ class TC_GAME_API Spell
         // Spell data
         SpellSchoolMask m_spellSchoolMask;                  // Spell school (can be overwrite for some spells (wand shoot for example)
         WeaponAttackType m_attackType;                      // For weapon based attack
+        uint32 m_ammoItemId;                                // Ammo consumed when this spell was launched
+        ObjectGuid m_ammoOwnerGuid;
+        bool m_ammoRecoveryClaimed;
         int32 m_powerCost;                                  // Calculated spell cost initialized only in Spell::prepare
         int32 m_casttime;                                   // Calculated spell cast time initialized only in Spell::prepare
         int32 m_channeledDuration;                          // Calculated channeled spell duration in order to calculate correct pushback.

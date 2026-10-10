@@ -17,10 +17,14 @@
 
 // This is where scripts' loading functions should be declared:
 void AddSC_redridge_transportation_script_v1();
+void AddSC_player_pvp_test();
+void AddSC_embedded_arrows();
 
 // The name of this function should match:
 // void Add${NameOfDirectory}Scripts()
 void AddCustomScripts()
 {
     AddSC_redridge_transportation_script_v1();
+    AddSC_player_pvp_test();
+    AddSC_embedded_arrows();
 }

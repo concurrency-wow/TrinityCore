@@ -633,6 +633,9 @@ class TC_GAME_API PlayerScript : public ScriptObject
         // Called when a player is killed by a creature
         virtual void OnPlayerKilledByCreature(Creature* killer, Player* killed);
 
+        // Called whenever a player enters the dead state.
+        virtual void OnPlayerDeath(Player* player);
+
         // Called when a player's level changes (after the level is applied)
         virtual void OnLevelChanged(Player* player, uint8 oldLevel);
 
@@ -681,6 +684,9 @@ class TC_GAME_API PlayerScript : public ScriptObject
 
         // Called in Spell::Cast.
         virtual void OnSpellCast(Player* player, Spell* spell, bool skipCheck);
+
+        // Called after a player's spell deals nonzero damage accepted by Unit::DealDamage.
+        virtual void OnSpellDamage(Player* player, Unit* victim, Spell* spell, uint32 damage);
 
         // Called when a player logs in.
         virtual void OnLogin(Player* player, bool firstLogin);
@@ -1006,6 +1012,7 @@ class TC_GAME_API ScriptMgr
         void OnPVPKill(Player* killer, Player* killed);
         void OnCreatureKill(Player* killer, Creature* killed);
         void OnPlayerKilledByCreature(Creature* killer, Player* killed);
+        void OnPlayerDeath(Player* player);
         void OnPlayerLevelChanged(Player* player, uint8 oldLevel);
         void OnPlayerFreeTalentPointsChanged(Player* player, uint32 newPoints);
         void OnPlayerTalentsReset(Player* player, bool involuntarily);
@@ -1024,6 +1031,7 @@ class TC_GAME_API ScriptMgr
         void OnPlayerEmote(Player* player, Emote emote);
         void OnPlayerTextEmote(Player* player, uint32 textEmote, uint32 emoteNum, ObjectGuid guid);
         void OnPlayerSpellCast(Player* player, Spell* spell, bool skipCheck);
+        void OnPlayerSpellDamage(Player* player, Unit* victim, Spell* spell, uint32 damage);
         void OnPlayerLogin(Player* player, bool firstLogin);
         void OnPlayerLogout(Player* player);
         void OnPlayerCreate(Player* player);

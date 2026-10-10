@@ -1836,6 +1836,11 @@ void ScriptMgr::OnPlayerKilledByCreature(Creature* killer, Player* killed)
     FOREACH_SCRIPT(PlayerScript)->OnPlayerKilledByCreature(killer, killed);
 }
 
+void ScriptMgr::OnPlayerDeath(Player* player)
+{
+    FOREACH_SCRIPT(PlayerScript)->OnPlayerDeath(player);
+}
+
 void ScriptMgr::OnPlayerLevelChanged(Player* player, uint8 oldLevel)
 {
     FOREACH_SCRIPT(PlayerScript)->OnLevelChanged(player, oldLevel);
@@ -1924,6 +1929,11 @@ void ScriptMgr::OnPlayerTextEmote(Player* player, uint32 textEmote, uint32 emote
 void ScriptMgr::OnPlayerSpellCast(Player* player, Spell* spell, bool skipCheck)
 {
     FOREACH_SCRIPT(PlayerScript)->OnSpellCast(player, spell, skipCheck);
+}
+
+void ScriptMgr::OnPlayerSpellDamage(Player* player, Unit* victim, Spell* spell, uint32 damage)
+{
+    FOREACH_SCRIPT(PlayerScript)->OnSpellDamage(player, victim, spell, damage);
 }
 
 void ScriptMgr::OnPlayerLogin(Player* player, bool firstLogin)
@@ -2586,6 +2596,10 @@ void PlayerScript::OnPlayerKilledByCreature(Creature* /*killer*/, Player* /*kill
 {
 }
 
+void PlayerScript::OnPlayerDeath(Player* /*player*/)
+{
+}
+
 void PlayerScript::OnLevelChanged(Player* /*player*/, uint8 /*oldLevel*/)
 {
 }
@@ -2655,6 +2669,10 @@ void PlayerScript::OnTextEmote(Player* /*player*/, uint32 /*textEmote*/, uint32 
 }
 
 void PlayerScript::OnSpellCast(Player* /*player*/, Spell* /*spell*/, bool /*skipCheck*/)
+{
+}
+
+void PlayerScript::OnSpellDamage(Player* /*player*/, Unit* /*victim*/, Spell* /*spell*/, uint32 /*damage*/)
 {
 }
 
